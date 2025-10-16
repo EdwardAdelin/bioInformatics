@@ -60,6 +60,22 @@ def calculate_tm_advanced(dna, na_conc=0.001):
     gc_percent = (g + c) / length * 100
     return 81.5 + 16.6 * math.log10(na_conc) + 0.41 * gc_percent - 600 / length
 
+#this one was added as an alternative version of the advanced formula (after talking with the professor)
+def calculate_tm_advanced2(dna, na_conc=0.001):
+    """
+    Calculate melting temperature using the advanced formula:
+    Tm = 81.5 + 16.6*log10([Na+]) + 0.41*(%GC) - 600/length
+    """
+    dna = dna.upper()
+    length = len(dna)
+    if length == 0:
+        return 0
+    g = dna.count('G')
+    c = dna.count('C')
+    gc_percent = (g + c) / length * 100
+    return 81.5 + 0.41 * gc_percent - 675 / length 
+
+
 def main():
     dna_sequence = input("Enter a DNA sequence: ").strip()
     if not dna_sequence:
@@ -71,6 +87,7 @@ def main():
     
     print(f"Simple formula Tm: {tm_simple:.2f} °C")
     print(f"Advanced formula Tm: {tm_advanced:.2f} °C")
+    print(f"Second version of an Advanced formula for Tm: {calculate_tm_advanced2(dna_sequence):.2f} °C")
 
 if __name__ == "__main__":
     main()

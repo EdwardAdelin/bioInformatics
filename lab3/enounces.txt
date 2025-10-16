@@ -31,3 +31,13 @@ b) Screenshot.jpg file - One or more screenshots of your GUI (graphical user int
 
 c) L3.zip file - a compressed file that contains your project - the compiled project (if you are working in a programming language) and the source code of the project).
 """
+
+
+#EX2
+"""
+Use the AI to design an app that uses the sliding window methodology in order to scan a DNA sequence from a 
+fasta file, and display the melting temperature along the sequence, by using a chart.
+The chart shall have 2 signals, one for each formula.
+Note: the sliding window should have 9 positions.
+Make a GUI for the app.
+"""
