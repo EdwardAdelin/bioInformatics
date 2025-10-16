@@ -1,0 +1,33 @@
+#EX1
+"""
+The melting temperature is the temperature at which one halp of a particular DNA duplex
+will dissociate and become a single stand of DNA. 
+Primar length and sequence are of critical impmortance in the design
+of the parameters of a succesful amplification (pcr).
+The melting temperature of a nucleic acid duplex increases both with it`s length
+and with increasing G+C content.
+A simple formula used for the calculation of Tm (melting temperature) is:
+Tm = 4*(G+C) + 2(A+T)
+
+The actual Tm is influenced by the concentration of Mg2+, K+, and cosolvents.
+An alternative formula is:
+Tm = 81.5 + 16.6(log10[Na+]) + 0.41*(%G+C) - (600/length of duplex),
+where [Na+] is the ion concentration of the solution and can take a value of  0.001.
+"""
+
+"""
+Implement an application that calculates the melting temperature of a DNA sequence using one of these formulas or both.
+
+Input = a string of DNA
+
+Output = temperature in celsius
+
+
+Note: Upload a single file called Project_L3.zip that contains:
+
+a) ReadMe.txt file - Here you write your name if you worked alone on the project. If you worked in a team, put the authors in the order of their involvement in the project (one below the other).
+
+b) Screenshot.jpg file - One or more screenshots of your GUI (graphical user interface) or your output console. Several screenshot files can be uploaded (Screenshot_1.jpg, Screenshot_2.jpg, Screenshot_3.jpg ...). 
+
+c) L3.zip file - a compressed file that contains your project - the compiled project (if you are working in a programming language) and the source code of the project).
+"""
