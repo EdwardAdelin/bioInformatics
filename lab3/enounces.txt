@@ -41,3 +41,14 @@ The chart shall have 2 signals, one for each formula.
 Note: the sliding window should have 9 positions.
 Make a GUI for the app.
 """
+
+#EX3
+"""
+Show the minimum & maximum values over the two signals. Also, allow the user
+to set a threshold (like a filter) that is able to take into consideration
+only the values above the threshold.
+These values above the threshold should be shown to the user on a second chart,
+as horizontal bars. Thus, the chunks of the signal that are above the threshold
+are shown as a horizontal bar over the sequence.
+Wherever the signal is below the threshold, the chart should show empty space.
+"""
