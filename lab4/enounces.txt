@@ -1,0 +1,6 @@
+1. Implement an application that converts the coding region of a gene
+into an aminoacid sequence. Use the genetic code table from Moodle.
+Take a sequence of DNA and convert it into ARN sequence:
+
+S adn = ... ATG...... TAA ...
+S ARN = ... AUG...... UAA ...
