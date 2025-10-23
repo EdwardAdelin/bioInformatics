@@ -4,3 +4,13 @@ Take a sequence of DNA and convert it into ARN sequence:
 
 S adn = ... ATG...... TAA ...
 S ARN = ... AUG...... UAA ...
+
+2. Download from NCBI the FASTA Files containing the COVID-19 genome, and the influenza genome. Use the AI to compare 
+the codon frequencies between the two genoms.
+
+a. make a chart that shows the top 10 most frequent codons for COVID 19
+b. make a chart that shows the top 10 most frequent codons for influenza
+c. Compare the 2 results and show the most frequent condons above the 2 genoms
+d. Show in the output of the console the top 3 aminoacids from each genom
+e. Formulate a prompt for the AI such that the 3 aminoacids are used to ask the AI "which foods contain less of those aminoacids"
+
