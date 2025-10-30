@@ -1,0 +1,16 @@
+1. Take an arbitrary DNA sequence from NCBI, between 1000 and 3000 nucleotides.
+a) Take 2000 random samples from this sequence, of about 100-150  bases
+b) Store these samples in an array variable/list
+c) Rebuild the original DNA sequence by using these random samples.
+d) What will be your main problem with you algorithm? Describe ; namely what kind of strcuture
+inside the original sequence may create different computation issues.
+Note: the samples must be aligned starting with the minimum of 10 positions in order to avoid random matching.
+
+2. Seach and upload from NCBI or other website 10 viral genomes. Use each of this genomes in order to take samples and 
+make a set of samples for each virus.
+a) Measure the time in miliseconds of assembly for each set
+b) Measure their overall C+G percentage
+c) Plot a chart in wich the coordonates of the poits are as follows:
+    - on the Y axis, the point will take the time [ms]
+    - on the X axis, the point will take overall C+G [%]
+d) Make a text file in which you explain the diffs. between the position of the points.
