@@ -1,0 +1,45 @@
+Viral Genome Assembly and GC% Comparison
+
+SARS-CoV-2:
+  GC% = 37.97
+  Assembly Time = 1.01 ms
+
+HIV-1:
+  GC% = 42.12
+  Assembly Time = 0.99 ms
+
+Hepatitis B:
+  GC% = 48.49
+  Assembly Time = 0.00 ms
+
+Dengue virus 2:
+  GC% = 45.82
+  Assembly Time = 0.92 ms
+
+Zika virus:
+  GC% = 50.94
+  Assembly Time = 0.00 ms
+
+Ebola virus:
+  GC% = 41.07
+  Assembly Time = 1.02 ms
+
+Norovirus:
+  GC% = 48.01
+  Assembly Time = 1.01 ms
+
+Adenovirus 2:
+  GC% = 55.20
+  Assembly Time = 0.00 ms
+
+HPV16:
+  GC% = 36.54
+  Assembly Time = 1.00 ms
+
+Measles virus:
+  GC% = 47.43
+  Assembly Time = 0.00 ms
+
+Observation:
+Viruses with higher GC% may have slightly longer assembly times due to sequence complexity and nucleotide composition.
+However, the effect also depends on genome length and sampling randomness.
