@@ -1,0 +1,8 @@
+1. Take an arbitrary DNA sequence from the NCBI 
+(National Center for Biotechnology), between 1000 and 3000 nucleotides 
+(letters).
+
+2. Implement a software application that detects repetitions
+ (between 6b and 10b) in this DNA sequence.
+
+
