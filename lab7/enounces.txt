@@ -1,8 +1,11 @@
 1. Take an arbitrary DNA sequence from the NCBI 
 (National Center for Biotechnology), between 1000 and 3000 nucleotides 
 (letters).
+Implement a software application that detects repetitions
+(between 3b and 6b) in this DNA sequence.
 
-2. Implement a software application that detects repetitions
- (between 6b and 10b) in this DNA sequence.
+Note: Repetitive sequences refer to patterns that repeat N times. Minimum number of repetitions is 2.
 
 
+2. Download 10 influenza genoms. For each genom, plot on a chart the most frequent
+repetitions.
