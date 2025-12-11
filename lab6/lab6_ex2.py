@@ -2,9 +2,8 @@ from Bio import Entrez, SeqIO
 from Bio.Restriction import EcoRI
 import matplotlib.pyplot as plt
 
-# Set email for NCBI Entrez
-Entrez.email = "example@example.com"  # Replace with your email
 
+Entrez.email = "example@example.com" 
 # Search for 10 influenza A virus complete genomes
 handle = Entrez.esearch(db="nucleotide", term="influenza A virus complete genome NOT segment", retmax=10)
 record = Entrez.read(handle)
