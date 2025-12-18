@@ -1,0 +1,14 @@
+ex1.
+A very early step in splice site recognition is exon definition, 
+a process that is as yet poorly understood. 
+Communication between the two ends of an exon is thought to be required for this s
+tep. Computational discovery of the exon-intron border or the intron-exon border 
+or the transcription factor binding sites (TFBS) is a challenging but important 
+problem of bioinformatics. Implement a software application for DNA motif finding
+ by following the steps below.
+
+ex2.
+Download 10 influenza genomes, adapt your app from the previous 
+assignment in order to scan each genome for possible
+motifs. For each genome, make a chart that shows the signal with 
+most likely locations of real functional motif.

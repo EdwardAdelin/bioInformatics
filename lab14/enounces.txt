@@ -1,0 +1,7 @@
+ex1. On Moodle
+
+exercise2: 
+Dwonload from NCBI the influenza&COVID-19 genomes and align these 2 genomes by using the local alignment method. 
+Note THAT U HAVE TO ADD AN IN BETWEEN LATER SOLJUTION IN ORDER TO BE ABLE TO ALIGN THE 2 GENOME files. 
+HINT: The alignment mate step by step on big regions with the connection between the results
+Use native code.
