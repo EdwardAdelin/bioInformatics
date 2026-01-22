@@ -1,3 +1,10 @@
 We are inside a courtroom.
 Mihai is accused of plagiarism.
 The lawyer must proove his innocence and asks you for your help (you are a specialist in informations).
+So, you take 2 poetries: one of Mihail Eminescu and one of Nichita Stanescu.
+You use this 2 texts in order to formulate 2 transition matrices (one for each author), wich is able to capture the probability of transition in between words.
+You combine all the matrices in to a log likelihood matrix.
+We use the log likelihood matri in order to scan, by using a sliding window, the text of Mihai, wich was accused of plagiarism.
+Negative score point out to one models, positive to another, and zero models to neither.
+Simulate the text of Mihai (create it with ChatGPT) and ask it to  make it a combination between 2 poetries of Emilescu & Stanescu.
+After that, you should be able to tell wich part is written by Eminescu or Tanescu, or by nither (neither means original by our accused Mihai).
